@@ -70,7 +70,7 @@ KitPvP/
 ├── settings.gradle.kts
 ├── .gitignore
 └── src/main/
-    ├── java/me/nrleryx/
+    ├── java/me/Nrleryx/
     │   ├── KitPvP.java
     │   ├── command/ExampleCommand.java
     │   └── listener/JoinListener.java

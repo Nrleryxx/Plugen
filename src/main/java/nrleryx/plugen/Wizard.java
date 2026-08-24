@@ -3,11 +3,12 @@ package nrleryx.plugen;
 import java.util.Locale;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.TreeSet;
 
 final class Wizard {
 
-    private static final Set<String> APIS = Set.of("paper", "spigot", "folia");
-    private static final Set<String> BUILD_TOOLS = Set.of("maven", "gradle");
+    private static final Set<String> APIS = new TreeSet<>(Set.of("paper", "spigot", "folia"));
+    private static final Set<String> BUILD_TOOLS = new TreeSet<>(Set.of("maven", "gradle"));
 
     private final Scanner in = new Scanner(System.in);
 
