@@ -16,3 +16,7 @@ jobs:
           distribution: temurin
           java-version: "17"
       - run: mvn -B verify
+      - uses: actions/upload-artifact@v4
+        with:
+          name: plugen
+          path: target/plugen.jar
