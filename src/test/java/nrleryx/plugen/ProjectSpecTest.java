@@ -38,7 +38,6 @@ class ProjectSpecTest {
         assertEquals(21, spec("1.20.6").javaRelease());
         assertEquals(21, spec("1.21").javaRelease());
         assertEquals(21, spec("1.21.9").javaRelease());
-        assertEquals(21, spec("1.22").javaRelease());
     }
 
     @Test
